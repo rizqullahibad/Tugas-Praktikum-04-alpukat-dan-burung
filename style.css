@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf8fc; 
+    color: #333333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+#header {
+    background-color: #643dee;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#header blockquote {
+    font-style: italic;
+    background: #18035e;
+    padding: 12px;
+    border-radius: 4px;
+    display: inline-block;
+    max-width: 600px;
+}
+
+#soekarno {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #f1e8fc;
+}
+
+.menu {
+    background-color: #18035e;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.menu a:hover {
+    background-color: #18035e;
+}
+
+.gambar, .koleksi {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.frame {
+    display: inline-block;
+    background: #ffffff;
+    padding: 6px;
+    border: 1px solid #18035e;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.frame img {
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+}
+
+.isi, .box {
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+.isi p {
+    margin-bottom: 12px;
+}
+
+.jawa {
+    font-weight: bold;
+    color: #18035e;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #18035e;
+    font-size: 20px;
+    border-bottom: 1px solid #18035e;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+.box ul, .box ol {
+    padding-left: 20px;
+}
+
+.box li {
+    margin-bottom: 8px;
+}
+
+.promo {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.promo h2 {
+    color: #18035e;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.promo p {
+    margin: 5px 0;
+}
+
+.harga-box {
+    margin: 15px 0;
+}
+
+.coret {
+    text-decoration: line-through;
+    color: #888888;
+    margin: 0;
+}
+
+.harga-baru {
+    font-size: 26px;
+    color: #18035e;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.harga-baru span {
+    font-size: 14px;
+    color: #555555;
+    font-weight: normal;
+}
+
+#wasap {
+    background: #18035e;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.olshop {
+    margin-top: 10px;
+}
+
+.olshop a {
+    display: inline-block;
+    background: #18035e;
+    color: white;
+    padding: 7px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 4px;
+    font-size: 14px;
+}
+
+.olshop a:hover {
+    background: #18035e;
+}
